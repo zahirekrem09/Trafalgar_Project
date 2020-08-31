@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trafalgar</title>
+    <!-- CSS only -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body data-spy="scroll" data-target="navbarNavAltMarkup" data-offset = "70">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><i>
+            <svg
+              width="41"
+              height="41"
+              viewBox="0 0 41 41"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="20.5" cy="20.5" r="20.5" fill="#458FF6" />
+            </svg> </i
+          >Trafalgar</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+
+          <div class="navbar-nav ml-auto">
+           
+            <a class="nav-link ml-2 active" href="#home">Home</a>
+            <a class="nav-link ml-2" href="#services">Find a doctor</a>
+            <a class="nav-link ml-2" href="#app">Apps</a>
+            <a class="nav-link ml-2" href="#testimonial">Testimonials</a>
+            <a class="nav-link ml-2" href="#blog">About us</a>
+          </div>
+
+        </div>
+      </div>
+    </nav>
+    <section id="home" class="about section_padding pb-0">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- <div class="col-lg-12 section_title text-center">
+            <p>Lorem ipsum dolor sit amet.</p>
+            <h3>Lorem, ipsum, dolor.</h3>
+          </div> -->
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="part_text">
+              <h1 class="mb-30">Virtual healthcare for you</h1>
+              <p class="pb-35">
+                Trafalgar provides progressive, and affordable healthcare,
+                accessible on mobile and online for everyone
+              </p>
+
+              <a href="#" class="btn mr-2">Consult today</a>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="part_photo">
+              <img
+                class="img-fluid"
+                src="images/trafalgar-header illustration 1.jpg"
+                alt="header illustration"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="services" class="services section_padding pb-0">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-12 section_title text-center">
+            <h3>Our services</h3>
+            <p>
+              We provide to you the best choiches for you. Adjust it to your
+              health needs and make sure your undergo treatment with our highly
+              qualified doctors you can consult with us which type of service is
+              suitable for your health
+            </p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12 py-15">
+            <div class="services_box box">
+              <div class="icon">
+                <i>
+                    <img src="images/doctor.png" alt="">
+                </i>
+              </div>
+              <div class="text">
+                <h4 class="box_title mb-20">Search doctor</h4>
+                <p>
+                  Choose your doctor from thousands of specialist, general, and
+                  trusted hospitals
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 py-15">
+            <div class="services_box box">
+              <div class="icon">
+                <i>
+                 <img src="images/pharmacy.png" alt="">
+                </i>
+              </div>
+              <div class="text">
+                <h4 class="box_title mb-20">Online pharmacy</h4>
+                <p>
+                    Buy your medicines with our mobile application with a simple delivery system
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 py-15">
+            <div class="services_box box">
+              <div class="icon">
+                <i>
+                    <img src="images/consultation.png" alt="">
+                </i>
+              </div>
+              <div class="text">
+                <h4 class="box_title mb-20">Consultation</h4>
+                <p>
+                    Free consultation with our trusted doctors and get the best recomendations 
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 py-15">
+            <div class="services_box box">
+              <div class="icon">
+                <i>
+                    <img src="images/details.png" alt="">
+                </i>
+              </div>
+              <div class="text">
+                <h4 class="box_title mb-20">Details info</h4>
+                <p>
+                    Free consultation with our trusted doctors and get the best recomendations 
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 py-15">
+            <div class="services_box box">
+              <div class="icon">
+                <i>
+                    <img src="images/emergency.png" alt="">
+                </i>
+              </div>
+              <div class="text">
+                <h4 class="box_title mb-20">Emergency care</h4>
+                <p>
+                    You can get 24/7 urgent care for yourself or your children and your lovely family 
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 py-15">
+            <div class="services_box box">
+              <div class="icon">
+                <i>
+                    <img src="images/tracking.png" alt="">
+                </i>
+              </div>
+              <div class="text">
+                <h4 class="box_title mb-20">Tracking</h4>
+                <p>
+                    Track and save your medical history and health data
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 text-center">
+            <a href="#" class="btn mr-2">Learn more</a>
+        </div>
+        
+      </div>
+    </section>
+
+    <section class="about more section_padding pb-0">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="part_photo">
+              <img
+                class="img-fluid"
+                src="images/trafalgar-illustration sec02 1.jpg"
+                alt="header illustration"
+              />
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="part_text">
+              <h2 class="mb-30">Leading healthcare providers</h2>
+              <p class="pb-35">
+                Trafalgar provides progressive, and affordable healthcare,
+                accessible on mobile and online for everyone. To us, it’s not
+                just work. We take pride in the solutions we deliver
+              </p>
+
+              <a href="#" class="btn mr-2">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="app" class="about more section_padding pb-0">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="part_text">
+              <h2 class="mb-30">Download our mobile apps</h2>
+              <p class="pb-35">
+                Our dedicated patient engagement app and web portal allow you to
+                access information instantaneously (no tedeous form, long calls,
+                or administrative hassle) and securely
+              </p>
+
+              <a href="#" class="btn mr-2">Download </a>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="part_photo">
+              <img
+                class="img-fluid"
+                src="images/trafalgar-illustration sec03 1.jpg"
+                alt="header illustration"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonial" class="testimonial section_padding pb-0">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12">
+            <div class="testimonial_items_main">
+              <div class="testimonial_items">
+                <div class="customer_title text-center">
+                  <h3>What our customer are saying</h3>
+                </div>
+
+                <div class="testimonial_author">
+                  <div class="author_img">
+                    <img src="images/Mask Group.jpg" alt="" />
+                  </div>
+                  <div class="text">
+                    <h5>Edward Newgate</h5>
+                    <h6>Founder Circle</h6>
+                  </div>
+                  <p class="ml-20">
+                    “Our dedicated patient engagement app and web portal allow
+                    you to access information instantaneously (no tedeous form,
+                    long calls, or administrative hassle) and securely”
+                  </p>
+                </div>
+              </div>
+              <div class="testimonial_items">
+                <div class="col-lg-12 customer_title text-center">
+                  <h3>What our customer are saying</h3>
+                </div>
+
+                <div class="testimonial_author">
+                  <div class="author_img">
+                    <img src="images/Mask Group.jpg" alt="" />
+                  </div>
+                  <div class="text">
+                    <h5>Edward Newgate(22px)</h5>
+                    <h6>Founder Circle(18px)</h6>
+                  </div>
+                  <p>
+                    “Our dedicated patient engagement app and web portal allow
+                    you to access information instantaneously (no tedeous form,
+                    long calls, or administrative hassle) and securely”
+                  </p>
+                </div>
+              </div>
+              <div class="testimonial_items">
+                <div class="col-lg-12 customer_title text-center">
+                  <h3>What our customer are saying</h3>
+                </div>
+
+                <div class="testimonial_author">
+                  <div class="author_img">
+                    <img src="images/Mask Group.jpg" alt="" />
+                  </div>
+                  <div class="text">
+                    <h5>Edward Newgate(22px)</h5>
+                    <h6>Founder Circle(18px)</h6>
+                  </div>
+                  <p class="ml-30">
+                    “Our dedicated patient engagement app and web portal allow
+                    you to access information instantaneously (no tedeous form,
+                    long calls, or administrative hassle) and securely”
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="blog" class="section_padding blog">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-12 section_title text-center">
+            <h3>Check out our latest article</h3>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="blog-item">
+              <div class="part-img">
+                <img class="img-fluid" src="images/image 1.jpg" alt="" />
+              </div>
+              <div class="content">
+                <div class="title">
+                  <h3>
+                    <a href=""
+                      >Disease detection, check up in the laboratory
+                    </a>
+                  </h3>
+                </div>
+                <p>
+                  In this case, the role of the health laboratory is very
+                  important to do a disease detection...
+                </p>
+                <a href="">Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="blog-item">
+              <div class="part-img">
+                <img class="img-fluid" src="images/image 2.jpg" alt="" />
+              </div>
+              <div class="content">
+                <div class="title">
+                  <h3>Disease detection, check up in the laboratory</h3>
+                </div>
+                <p>
+                  In this case, the role of the health laboratory is very
+                  important to do a disease detection...
+                </p>
+                <a href="">Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 py-15">
+            <div class="blog-item">
+              <div class="part-img">
+                <img class="img-fluid" src="images/image 3.jpg" alt="" />
+              </div>
+              <div class="content">
+                <div class="title">
+                  <h3>
+                    <a href=""
+                      >Disease detection, check up in the laboratory
+                    </a>
+                  </h3>
+                </div>
+                <p>
+                  In this case, the role of the health laboratory is very
+                  important to do a disease detection...
+                </p>
+                <a href="">Read more</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-12 text-center">
+            <a href="#" class="btn mr-2">View all</a>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer-area footer--light">
+      <div class="footer-big">
+        <!-- start .container -->
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-12">
+              <div class="footer-widget">
+                <div class="widget-about">
+                  <h3>
+                    <i
+                      ><svg
+                        width="41"
+                        height="41"
+                        viewBox="0 0 41 41"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <circle cx="20.5" cy="20.5" r="20.5" fill="white" />
+                      </svg> </i
+                    >Trafalgar
+                  </h3>
+                  <p>
+                    Trafalgar provides progressive, and affordable healthcare,
+                    accessible on mobile and online for everyone
+                  </p>
+                  <div class="copyright-text">
+                    <p>&copy;Trafalgar PTY LTD 2020. All rights reserved</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Ends: .footer-widget -->
+            </div>
+            <!-- end /.col-md-4 -->
+            <div class="col-md-2 col-sm-4">
+              <div class="footer-widget">
+                <div class="footer-menu footer-menu--1">
+                  <h4 class="footer-widget-title">Company</h4>
+                  <ul>
+                    <li>
+                      <a href="#">About</a>
+                    </li>
+                    <li>
+                      <a href="#">Testimonials</a>
+                    </li>
+                    <li>
+                      <a href="#">Find a doctor</a>
+                    </li>
+                    <li>
+                      <a href="#">Apps</a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- end /.footer-menu -->
+              </div>
+              <!-- Ends: .footer-widget -->
+            </div>
+            <!-- end /.col-md-3 -->
+
+            <div class="col-md-2 col-sm-4">
+              <div class="footer-widget">
+                <div class="footer-menu">
+                  <h4 class="footer-widget-title">Region</h4>
+                  <ul>
+                    <li>
+                      <a href="#">Indonesia</a>
+                    </li>
+                    <li>
+                      <a href="#">Singapore</a>
+                    </li>
+                    <li>
+                      <a href="#">Hongkong</a>
+                    </li>
+                    <li>
+                      <a href="#">Canada</a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- end /.footer-menu -->
+              </div>
+              <!-- Ends: .footer-widget -->
+            </div>
+            <!-- end /.col-lg-3 -->
+
+            <div class="col-md-2 col-sm-4">
+              <div class="footer-widget">
+                <div class="footer-menu no-padding">
+                  <h4 class="footer-widget-title">Help</h4>
+                  <ul>
+                    <li>
+                      <a href="#">Help center</a>
+                    </li>
+                    <li>
+                      <a href="#">Contact support</a>
+                    </li>
+                    <li>
+                      <a href="#">Instructions</a>
+                    </li>
+                    <li>
+                      <a href="#">How it works</a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- end /.footer-menu -->
+              </div>
+              <!-- Ends: .footer-widget -->
+            </div>
+            <!-- Ends: .col-lg-3 -->
+          </div>
+          <!-- end /.row -->
+        </div>
+        <!-- end /.container -->
+      </div>
+      <!-- end /.footer-big -->
+    </footer>
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="slider.js"></script>
+  </body>
+</html>

@@ -1,3 +1,45 @@
+@import url("https://use.typekit.net/qkh2moe.css");
+
+/* Muli Italic
+
+font-family: muli, sans-serif;
+
+font-weight: 400;
+
+font-style: italic;
+
+
+Muli Regular
+
+font-family: muli, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+Muli Bold Italic
+
+font-family: muli, sans-serif;
+
+font-weight: 700;
+
+font-style: italic;
+
+
+Muli Bold
+
+font-family: muli, sans-serif;
+
+font-weight: 700;
+
+font-style: normal; */
+
+body {
+  font-family: muli, sans-serif;
+}
+
+
 * {
   margin: 0;
   padding: o;
@@ -28,7 +70,6 @@
 }
 
 h1 {
-  font-family: Muli;
   font-style: normal;
   font-weight: bold;
   font-size: 48px;
@@ -38,7 +79,6 @@ h1 {
 }
 
 h2 {
-  font-family: Muli;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -48,7 +88,6 @@ h2 {
 }
 
 h3 {
-  font-family: Muli;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -118,22 +157,66 @@ h3 {
   color: #458ff6;
 }
 
-/* about css */
-
-.about .part_text h1 {
-  font-size: 48px;
+/* navbar */
+.nabbar {
+  padding: 15px 0;
+  background: transparent;
+}
+.navbar-light .navbar-brand {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  color: #233348;
+  mix-blend-mode: normal;
+}
+.navbar-light .navbar-nav .nav-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  color: #1f1534;
+  opacity: 0.5;
+  transition: 0.5s all;
 }
 
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #5da0f2;
+}
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  color: #1F1534 !important;
+}
+.nav-scroll {
+  background: #ffffff;
+  box-shadow: 0 1px 8px 3px rgba(0, 0, 0, 0.05);
+  transition: 0.5s all;
+}
+
+/* .nav-scroll .navbar-nav a {
+  color: #1f1534 !important;
+} */
+
+.nav-scroll .navbar-nav a:hover {
+  color: #5da0f2 !important;
+}
+
+
+
+/* about and more  css */
+
+/* .about .part_text h1 {
+  font-size: 48px;
+} */
+
 .about .part_text p {
-  font-family: Muli;
   font-style: normal;
   font-weight: 300;
   font-size: 21px;
   line-height: 32px;
-  /* or 152% */
-
   color: #7d7987;
-
   mix-blend-mode: normal;
 }
 
@@ -154,7 +237,6 @@ h3 {
 .services .services_box {
   border: 1px solid #fafafa;
   background: #ffffff;
-  /* drop shadow */
   width: 300px;
   height: 354px;
   box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
@@ -193,7 +275,6 @@ h3 {
 }
 
 .services_box .text p {
-  font-family: Muli;
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
@@ -318,7 +399,7 @@ h3 {
   background: #ffffff;
   box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
   border-radius: 20px;
-  width: 340px;
+  width: auto;
   height: 512px;
 }
 
@@ -396,16 +477,15 @@ p {
   font-weight: 300;
 }
 h4 {
-  font-family: Muli;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
   line-height: 60px;
   color: #ffffff;
 }
-a {
+/* a {
   color: #5867dd;
-}
+} */
 .no-padding {
   padding: 0 !important;
 }
@@ -435,7 +515,8 @@ a {
   transition: 0.3s;
 }
 .footer-menu ul li a:hover {
-  color: #5da0f2;
+  color:  #7d7987;
+  text-decoration:none;
 }
 .footer-widget-title {
   font-family: Muli;
@@ -446,7 +527,6 @@ a {
 }
 
 .widget-about h3 {
-  font-family: Muli;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -460,54 +540,6 @@ a {
 .widget-about i img {
   position: absolute;
   text-align: center;
-}
-
-/* navbar */
-.nabbar {
-  padding: 15px 0;
-  background: transparent;
-}
-.navbar-light .navbar-brand {
-  font-family: Muli;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 30px;
-  color: #233348;
-  mix-blend-mode: normal;
-}
-.navbar-light .navbar-nav .nav-link {
-  font-family: Muli;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 23px;
-  color: #1f1534;
-  opacity: 0.5;
-  transition: 0.5s all;
-}
-
-.navbar-light .navbar-nav .nav-link:hover {
-  color: #5da0f2;
-}
-.navbar-light .navbar-nav .nav-link.active {
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 23px;
-  color: #1F1534 !important;
-}
-.nav-scroll {
-  background: #ffffff;
-  box-shadow: 0 1px 8px 3px rgba(0, 0, 0, 0.05);
-  transition: 0.5s all;
-}
-
-/* .nav-scroll .navbar-nav a {
-  color: #1f1534 !important;
-} */
-
-.nav-scroll .navbar-nav a:hover {
-  color: #5da0f2 !important;
 }
 
 
@@ -546,7 +578,36 @@ a {
     padding-bottom: 100px;
   }
 
-  .blog-item {
-    margin: 20px;
+  .blog .blog-item {
+    margin: auto;
+    margin-bottom: 20px;
+    width: 350px;
+    height: 512px;
+    text-align: center;
+  }
+  .services .services_box {
+    /* width: 100%; */
+    text-align: center;
+  }
+  .services .services_box  {
+    /* width: 100%; */
+    margin: auto;
+    text-align: center;
   }
 }
+
+
+@media only screen and (max-width: 500px) {
+  .footer-widget .footer-menu {
+    margin: auto;
+    padding-left:0;
+    text-align: center;
+  }
+
+  .footer-widget .widget-about{
+    margin: auto;
+    padding-left:0;
+    text-align: center;
+  }
+}
+

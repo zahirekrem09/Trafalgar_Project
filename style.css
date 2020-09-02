@@ -98,7 +98,6 @@ h3 {
 }
 
 /* Buttons Css */
-
 .btn {
   background: #458ff6;
   border: 2px solid #458ff6;
@@ -118,8 +117,6 @@ h3 {
   box-shadow: inset 14em 0 0 0 #ffffff;
   color: #458ff6;
 }
-
-
 
 /* about css */
 
@@ -158,7 +155,7 @@ h3 {
   border: 1px solid #fafafa;
   background: #ffffff;
   /* drop shadow */
-  width: 350px;
+  width: 300px;
   height: 354px;
   box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
   border-radius: 20px;
@@ -201,10 +198,7 @@ h3 {
   font-weight: 300;
   font-size: 16px;
   line-height: 28px;
-  /* or 175% */
-
   color: #7d7987;
-
   mix-blend-mode: normal;
 }
 
@@ -222,25 +216,25 @@ h3 {
     
   } */
 
+
 /* testimonial css */
 .customer_title {
   position: relative;
-  margin-bottom: 100px;
+  /* margin-bottom: 40px; */
   margin-top: 40px;
   width: 100%;
 }
 
-.customer_title p {
-  /* background-color: #458ff6; */
+/* .customer_title p {
   color: rgba(255, 255, 255, 0.9);
   display: inline-block;
-  margin-bottom: 5px;
+  margin: 20px;
+  padding: 20px;
   text-align: center;
   font-size: 19px;
   line-height: 30px;
   letter-spacing: 1px;
-}
-
+} */
 .customer_title h3 {
   position: relative;
   font-weight: bold;
@@ -254,10 +248,10 @@ h3 {
 .customer_title h3:after {
   position: absolute;
   content: "";
-  display: block;
+  /* display: block; */
   height: 2px;
   width: 56px;
-  /* bottom: -30px; */
+  bottom: -30px;
   left: 50%;
   color: black;
   border-radius: 6px;
@@ -269,19 +263,22 @@ h3 {
   background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
   border-radius: 24px;
 }
+.testimonial .testimonial_items .row {
+ margin: 50px;
+ margin-top:20px;
+}
 
 .testimonial .testimonial_items .testimonial_author {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin-top: 40px;
 }
 
 .testimonial .testimonial_items .testimonial_author .author_img {
   width: 133px;
   height: 133px;
   border-radius: 50%;
-  margin: 40px;
+  /* margin: 40px; */
 }
 
 .testimonial .testimonial_items .testimonial_author .author_img img {
@@ -289,13 +286,14 @@ h3 {
 }
 
 .testimonial_author .text {
-  margin: 40px;
+  margin: 20px;
 }
 .testimonial_author h5 {
   font-weight: bold;
   font-size: 22px;
   color: #ffffff;
   mix-blend-mode: normal;
+  margin-bottom: 5px;
 }
 
 .testimonial_author h6 {
@@ -304,17 +302,14 @@ h3 {
   color: rgba(255, 255, 255, 0.85);
   mix-blend-mode: normal;
 }
-
-.testimonial_author p {
+.testimonial_items p {
   font-size: 19px;
-  /* or 158% */
   color: rgba(255, 255, 255, 0.9);
   mix-blend-mode: normal;
-  padding: 60px;
+  line-height: 30px;
 }
 
 /* blog css */
-
 .blog {
   border: 1px solid #fafafa;
   transition: all 0.3s;
@@ -323,7 +318,7 @@ h3 {
   background: #ffffff;
   box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
   border-radius: 20px;
-  width: 350px;
+  width: 340px;
   height: 512px;
 }
 
@@ -331,10 +326,12 @@ h3 {
   position: relative;
   overflow: hidden;
   transition: all 0.3s;
-  padding: 5px;
+  /* padding: 5px; */
+  border-radius: 20px 20px 0px 0px;
 }
 .blog .blog-item .part-img img {
   transition: all 0.3s;
+  border-radius: 20px 20px 0px 0px;
 }
 
 .blog .blog-item:hover .part-img img {
@@ -346,19 +343,16 @@ h3 {
   padding: 20px;
 }
 
-.blog .blog-item .content .title {
+/* .blog .blog-item .content .title {
   margin-bottom: 20px;
-}
+} */
 
-.blog .blog-item .content .title h4 {
+.blog .blog-item .content .title h3 {
   font-weight: bold;
   font-size: 21px;
+  line-height: 32px;
   color: #000000;
   mix-blend-mode: normal;
-}
-
-.blog .blog-item .content .title a {
-  color: #000000;
 }
 
 .blog .blog-item .content p {
@@ -366,6 +360,13 @@ h3 {
   font-size: 16px;
   line-height: 28px;
   color: #7d7987;
+  mix-blend-mode: normal;
+}
+.blog .blog-item .content a {
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 28px;
+  color: #4089ED;
   mix-blend-mode: normal;
 }
 
@@ -378,7 +379,7 @@ ul {
 li {
   list-style: none;
 }
-a:focus,
+/* a:focus,
 a:hover {
   text-decoration: none;
   -webkit-transition: 0.3s ease;
@@ -387,7 +388,7 @@ a:hover {
 }
 a:focus {
   outline: 0;
-}
+} */
 p {
   font-size: 18px;
   line-height: 28px;
@@ -453,11 +454,18 @@ a {
   color: #ffffff;
   mix-blend-mode: normal;
 }
+.widget-about i {
+  position: relative;
+}
+.widget-about i img {
+  position: absolute;
+  text-align: center;
+}
 
 /* navbar */
 .nabbar {
-    padding: 15px 0;
-    background: transparent;
+  padding: 15px 0;
+  background: transparent;
 }
 .navbar-light .navbar-brand {
   font-family: Muli;
@@ -465,9 +473,7 @@ a {
   font-weight: bold;
   font-size: 24px;
   line-height: 30px;
-
   color: #233348;
-
   mix-blend-mode: normal;
 }
 .navbar-light .navbar-nav .nav-link {
@@ -482,47 +488,65 @@ a {
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #5da0f2;
-    
-  }
-.navbar-light .navbar-nav .nav-link .active {
-font-weight: bold;
-font-size: 18px;
-line-height: 23px;
-color: #1F1534 !important;
-    
-  }
-  .nav-scroll {
-      background: #ffffff;
-      box-shadow: 0 1px 8px 3px rgba(0, 0, 0, 0.05);
-      transition: 0.5s all;
-  }
-
-  .nav-scroll  .navbar-nav a {
-    color: #1f1534 !important;
+  color: #5da0f2;
+}
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  color: #1F1534 !important;
+}
+.nav-scroll {
+  background: #ffffff;
+  box-shadow: 0 1px 8px 3px rgba(0, 0, 0, 0.05);
+  transition: 0.5s all;
 }
 
-@media only  screen and (max-width:991px) {
-    .navbar .container {
-        max-width: 100%;
-    }
+/* .nav-scroll .navbar-nav a {
+  color: #1f1534 !important;
+} */
 
-    .navbar .navbar-collapse {
-        overflow:hidden;
-        text-align: center;
-        padding: 10px 0;
-        margin: 10px 0;
-    }
+.nav-scroll .navbar-nav a:hover {
+  color: #5da0f2 !important;
 }
 
 
-@media only  screen and (max-width:767px) {
-   .about .part_text{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 991px) {
+  .navbar .container {
+    max-width: 100%;
+  }
+
+  .navbar .navbar-collapse {
+    overflow: hidden;
+    text-align: center;
+    padding: 10px 0;
+    margin: 10px 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .about .part_text {
     padding-bottom: 100px;
-    
-   }
+  }
 
-   .blog-item {
-       margin: 20px;
-   }
+  .blog-item {
+    margin: 20px;
+  }
 }

@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Trafalgar</title>
+    <link rel="icon" href="images/logo.png" type="image/x-icon">
     <!-- CSS only -->
     <link
       rel="stylesheet"
@@ -26,54 +27,63 @@
 
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body data-spy="scroll" data-target="navbarNavAltMarkup" data-offset = "70">
+  <body data-spy="scroll" data-target="#navbarNav" data-offset = "70">
+
+    <!-- NAVBAR STRART -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#"
           ><i>
-            <svg
-              width="41"
-              height="41"
-              viewBox="0 0 41 41"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <circle cx="20.5" cy="20.5" r="20.5" fill="#458FF6" />
-            </svg> </i
-          >Trafalgar</a
+            <img src="images/logo.png" alt=""> </i
+          ></a
         >
         <button
           class="navbar-toggler"
           type="button"
           data-toggle="collapse"
-          data-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="collapse navbar-collapse" id="navbarNav">
 
-          <div class="navbar-nav ml-auto">
-           
+          <!-- <div class="navbar-nav ml-auto">  
             <a class="nav-link ml-2 active" href="#home">Home</a>
             <a class="nav-link ml-2" href="#services">Find a doctor</a>
             <a class="nav-link ml-2" href="#app">Apps</a>
             <a class="nav-link ml-2" href="#testimonial">Testimonials</a>
             <a class="nav-link ml-2" href="#blog">About us</a>
-          </div>
+          </div> -->
 
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item ml-2">
+              <a class="nav-link active" href="#home">Home</a>
+            </li>
+            <li class="nav-item ml-2">
+              <a class="nav-link" href="#services">Find a doctor</a>
+            </li>
+            <li class="nav-item ml-2">
+              <a class="nav-link" href="#app">Apps</a>
+            </li>
+            <li class="nav-item ml-2">
+              <a class="nav-link" href="#testimonial">Testimonials</a>
+            </li>
+            <li class="nav-item ml-2">
+              <a class="nav-link" href="#blog">About us</a>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
+      <!-- NAVBAR END -->
+
+        <!-- ABOUT-HOME STRART -->
     <section id="home" class="about section_padding pb-0">
       <div class="container">
         <div class="row align-items-center">
-          <!-- <div class="col-lg-12 section_title text-center">
-            <p>Lorem ipsum dolor sit amet.</p>
-            <h3>Lorem, ipsum, dolor.</h3>
-          </div> -->
           <div class="col-lg-6 col-md-6 col-sm-12">
             <div class="part_text">
               <h1 class="mb-30">Virtual healthcare for you</h1>
@@ -98,6 +108,9 @@
         </div>
       </div>
     </section>
+    <!-- ABOUT-HOME END -->
+
+    <!-- SERVİCES STRART -->
     <section id="services" class="services section_padding pb-0">
       <div class="container">
         <div class="row align-items-center">
@@ -110,7 +123,6 @@
               suitable for your health
             </p>
           </div>
-
           <div class="col-lg-4 col-md-6 col-sm-12 py-15">
             <div class="services_box box">
               <div class="icon">
@@ -209,7 +221,9 @@
         
       </div>
     </section>
+<!-- SERVİCES END -->
 
+<!-- ABOUT-MORE STRART -->
     <section class="about more section_padding pb-0">
       <div class="container">
         <div class="row align-items-center">
@@ -237,7 +251,9 @@
         </div>
       </div>
     </section>
+    <!-- ABOUT-MORE END -->
 
+    <!-- APP STRART -->
     <section id="app" class="about more section_padding pb-0">
       <div class="container">
         <div class="row align-items-center">
@@ -249,11 +265,9 @@
                 access information instantaneously (no tedeous form, long calls,
                 or administrative hassle) and securely
               </p>
-
-              <a href="#" class="btn mr-2">Download </a>
+              <a href="#" class="btn mr-2">Download  <i> <img src="images/Vector.png" alt=""></i></a>
             </div>
           </div>
-
           <div class="col-lg-6 col-md-6 col-sm-12">
             <div class="part_photo">
               <img
@@ -266,78 +280,99 @@
         </div>
       </div>
     </section>
+ <!-- APP STRART -->
 
+  <!-- TESTİMONİAL(SLİDER) STRART -->
     <section id="testimonial" class="testimonial section_padding pb-0">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-12">
             <div class="testimonial_items_main">
+
               <div class="testimonial_items">
                 <div class="customer_title text-center">
                   <h3>What our customer are saying</h3>
                 </div>
-
-                <div class="testimonial_author">
-                  <div class="author_img">
-                    <img src="images/Mask Group.jpg" alt="" />
+                <div class="row align-items-center">
+                  <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="testimonial_author">
+                      <div class="author_img">
+                        <img src="images/Mask Group.jpg" alt="" />
+                      </div>
+                      <div class="text">
+                        <h5>Edward Newgate</h5>
+                        <h6>Founder Circle</h6>
+                      </div>
+                    </div>
                   </div>
-                  <div class="text">
-                    <h5>Edward Newgate</h5>
-                    <h6>Founder Circle</h6>
+                  <div class="col-lg-6 col-md-6 col-sm-12">                 
+                      <p class="ml-20">
+                        “Our dedicated patient engagement app and web portal allow
+                        you to access information instantaneously (no tedeous form,
+                        long calls, or administrative hassle) and securely”
+                      </p>
+                    </div>
+                  </div>                
+                </div>      
+                <div class="testimonial_items">
+                  <div class="customer_title text-center">
+                    <h3>What our customer are saying</h3>
                   </div>
-                  <p class="ml-20">
-                    “Our dedicated patient engagement app and web portal allow
-                    you to access information instantaneously (no tedeous form,
-                    long calls, or administrative hassle) and securely”
-                  </p>
-                </div>
-              </div>
-              <div class="testimonial_items">
-                <div class="col-lg-12 customer_title text-center">
-                  <h3>What our customer are saying</h3>
-                </div>
-
-                <div class="testimonial_author">
-                  <div class="author_img">
-                    <img src="images/Mask Group.jpg" alt="" />
-                  </div>
-                  <div class="text">
-                    <h5>Edward Newgate(22px)</h5>
-                    <h6>Founder Circle(18px)</h6>
-                  </div>
-                  <p>
-                    “Our dedicated patient engagement app and web portal allow
-                    you to access information instantaneously (no tedeous form,
-                    long calls, or administrative hassle) and securely”
-                  </p>
-                </div>
-              </div>
-              <div class="testimonial_items">
-                <div class="col-lg-12 customer_title text-center">
-                  <h3>What our customer are saying</h3>
-                </div>
-
-                <div class="testimonial_author">
-                  <div class="author_img">
-                    <img src="images/Mask Group.jpg" alt="" />
-                  </div>
-                  <div class="text">
-                    <h5>Edward Newgate(22px)</h5>
-                    <h6>Founder Circle(18px)</h6>
-                  </div>
-                  <p class="ml-30">
-                    “Our dedicated patient engagement app and web portal allow
-                    you to access information instantaneously (no tedeous form,
-                    long calls, or administrative hassle) and securely”
-                  </p>
-                </div>
+                  <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                      <div class="testimonial_author">
+                        <div class="author_img">
+                          <img src="images/Mask Group.jpg" alt="" />
+                        </div>
+                        <div class="text">
+                          <h5>Edward Newgate</h5>
+                          <h6>Founder Circle</h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">                 
+                        <p class="ml-20">
+                          “Our dedicated patient engagement app and web portal allow
+                          you to access information instantaneously (no tedeous form,
+                          long calls, or administrative hassle) and securely”
+                        </p>
+                      </div>
+                    </div>                
+                  </div>         
+                  <div class="testimonial_items">
+                    <div class="customer_title text-center">
+                      <h3>What our customer are saying</h3>
+                    </div>
+                    <div class="row align-items-center">
+                      <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="testimonial_author">
+                          <div class="author_img">
+                            <img src="images/Mask Group.jpg" alt="" />
+                          </div>
+                          <div class="text">
+                            <h5>Edward Newgate</h5>
+                            <h6>Founder Circle</h6>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-12">                 
+                          <p class="ml-20">
+                            “Our dedicated patient engagement app and web portal allow
+                            you to access information instantaneously (no tedeous form,
+                            long calls, or administrative hassle) and securely”
+                          </p>
+                        </div>
+                      </div>                
+                    </div>                 
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+<!-- TESTİMONİAL(SLİDER) END -->
 
+<!-- BLOG STRART -->
     <section id="blog" class="section_padding blog">
       <div class="container">
         <div class="row align-items-center">
@@ -345,7 +380,7 @@
             <h3>Check out our latest article</h3>
           </div>
 
-          <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="blog-item">
               <div class="part-img">
                 <img class="img-fluid" src="images/image 1.jpg" alt="" />
@@ -353,37 +388,38 @@
               <div class="content">
                 <div class="title">
                   <h3>
-                    <a href=""
-                      >Disease detection, check up in the laboratory
-                    </a>
+                    
+                      Disease detection, check up in the laboratory
+                    
                   </h3>
                 </div>
                 <p>
                   In this case, the role of the health laboratory is very
                   important to do a disease detection...
                 </p>
-                <a href="">Read more</a>
+                <a href="">Read more  <i> <img src="images/read.png" alt=""></i></a>
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="blog-item">
               <div class="part-img">
                 <img class="img-fluid" src="images/image 2.jpg" alt="" />
               </div>
               <div class="content">
                 <div class="title">
-                  <h3>Disease detection, check up in the laboratory</h3>
+                  <h3>
+                    Herbal medicines that are safe for consumption 
+                  </h3>
                 </div>
                 <p>
-                  In this case, the role of the health laboratory is very
-                  important to do a disease detection...
+                  Herbal medicine is very widely used at this time because of its very good for your health...
                 </p>
-                <a href="">Read more</a>
+                <a href="">Read more <i> <img src="images/read.png" alt=""></i></a>
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-12 py-15">
+          <div class="col-lg-4 col-md-6 col-sm-12 py-15">
             <div class="blog-item">
               <div class="part-img">
                 <img class="img-fluid" src="images/image 3.jpg" alt="" />
@@ -391,27 +427,27 @@
               <div class="content">
                 <div class="title">
                   <h3>
-                    <a href=""
-                      >Disease detection, check up in the laboratory
-                    </a>
+                    
+                    Natural care for healthy facial skin
+                    
                   </h3>
                 </div>
                 <p>
-                  In this case, the role of the health laboratory is very
-                  important to do a disease detection...
+                  A healthy lifestyle should start from now and also for your skin health. There are some...
                 </p>
-                <a href="">Read more</a>
+                <a href="">Read more <i> <img src="images/read.png" alt=""></i></a>
               </div>
             </div>
           </div>
-
           <div class="col-md-12 text-center">
             <a href="#" class="btn mr-2">View all</a>
         </div>
         </div>
       </div>
     </section>
+<!-- BLOG END -->
 
+<!-- FOOTER STRART -->
     <footer class="footer-area footer--light">
       <div class="footer-big">
         <!-- start .container -->
@@ -442,9 +478,7 @@
                   </div>
                 </div>
               </div>
-              <!-- Ends: .footer-widget -->
             </div>
-            <!-- end /.col-md-4 -->
             <div class="col-md-2 col-sm-4">
               <div class="footer-widget">
                 <div class="footer-menu footer-menu--1">
@@ -464,12 +498,8 @@
                     </li>
                   </ul>
                 </div>
-                <!-- end /.footer-menu -->
               </div>
-              <!-- Ends: .footer-widget -->
             </div>
-            <!-- end /.col-md-3 -->
-
             <div class="col-md-2 col-sm-4">
               <div class="footer-widget">
                 <div class="footer-menu">
@@ -489,15 +519,11 @@
                     </li>
                   </ul>
                 </div>
-                <!-- end /.footer-menu -->
               </div>
-              <!-- Ends: .footer-widget -->
             </div>
-            <!-- end /.col-lg-3 -->
-
             <div class="col-md-2 col-sm-4">
               <div class="footer-widget">
-                <div class="footer-menu no-padding">
+                <div class="footer-menu">
                   <h4 class="footer-widget-title">Help</h4>
                   <ul>
                     <li>
@@ -514,17 +540,11 @@
                     </li>
                   </ul>
                 </div>
-                <!-- end /.footer-menu -->
               </div>
-              <!-- Ends: .footer-widget -->
             </div>
-            <!-- Ends: .col-lg-3 -->
           </div>
-          <!-- end /.row -->
         </div>
-        <!-- end /.container -->
       </div>
-      <!-- end /.footer-big -->
     </footer>
 
     <!-- JS, Popper.js, and jQuery -->
